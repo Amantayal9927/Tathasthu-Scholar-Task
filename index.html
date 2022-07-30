@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:wght@100&family=Rokkitt:wght@300&display=swap"
+        rel="stylesheet">
+    <style>
+        /* Css reset */
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('gym.jpg');
+            font-family: 'Cinzel', serif;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Rokkitt', serif;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 74px;
+            top: 20px;
+
+        }
+
+        .left img {
+            display: block;
+            margin: auto;
+            width: 90px;
+            /* filter: invert(100%); */
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 30px;
+            font-size: 23px;
+            color: rgba(38, 253, 85, 0.959);
+        }
+
+        .mid {
+            position: sticky;
+            /* border: 2px solid yellow; */
+            display: block;
+            margin: 20px auto;
+            width: 664px;
+        }
+
+        .right {
+            /* border: 2px solid green; */
+            display: inline-block;
+            position: absolute;
+            right: 20px;
+            top: 30px;
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 30px 27px;
+            font-family: 'Cinzel', serif;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Rokkitt', serif;
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: royalblue;
+        }
+
+        .btn {
+            color: white;
+            background-color: black;
+            margin: 0px 9px;
+            padding: 4px 12px;
+            border: 2px solid grey;
+            border-radius: 12px;
+            font-size: 14px;
+            cursor: pointer;
+            font-family: 'Cinzel', serif;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Rokkitt', serif;
+        }
+
+        .btn:hover {
+            color: skyblue;
+        }
+
+        .container {
+            border: 2px solid orange;
+            margin: 111px 110px;
+            padding: 66px;
+            border-radius: 20px;
+            width: 357px;
+        }
+
+        .form input {
+            font-weight: bold;
+            text-align: center;
+            display: block;
+            width: 230px;
+            margin: 10px auto;
+            padding: 5px 50px;
+            border: 2px solid black;
+            border-radius: 20px;
+            font-family: 'Cinzel', serif;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Rokkitt', serif;
+        }
+
+        .container button {
+            display: block;
+            width: 98px;
+            margin: 17px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="symbol.png" alt="">
+            <div>Aman Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email US</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best Gym of Noida</h1>
+        <form action="">
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your mobile number">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your email id">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
